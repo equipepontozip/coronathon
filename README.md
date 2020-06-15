@@ -18,14 +18,23 @@ docker-compose up
 Depois você poderá fazer requisições na API pelo endereço  `localhost:8080`
 
 ## Rotas
-GET - `/status`
+GET - `/status` - Testa se a API está funcionando.
+
+POST - `/predict` - Recebe id de usuario e de empresa e calcula o match de ambos.
+
+POST - `/get_empresas` - Recebe o id de trabalhador e procura os melhores matches de empresas.
+
+POST - `/get_trabalhadores` - Recebe o id de empresa e procura os melhores matches de trabalhadores.
+
+## Exemplo de Resposta
+![api_response](./docs/api_response.png)
 
 ## Principais Bibliotecas
 
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - The web framework used
-* [numpy](https://numpy.org/) -  The fundamental package for scientific computing with Python 
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - The web framework used.
+* [numpy](https://numpy.org/) -  The fundamental package for scientific computing with Python .
 * [surprise](http://surpriselib.com/) - Surprise is a Python scikit building and analyzing recommender systems that deal with explicit rating data.
-* [cachetools](https://pypi.org/project/cachetools/) - Used to generate RSS Feeds
+* [cachetools](https://pypi.org/project/cachetools/) - Used to generate RSS Feeds.
 
 
 ## Authors
