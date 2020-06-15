@@ -49,4 +49,4 @@ Veja também outros trabalhos da [Equipe.zip](https://github.com/your/project/co
 
 ## Agradecimentos
 
-* A todos os profissionais da linha de frente que tem arriscado sua vida por nós.
+* A todos os profissionais da linha de frente que tem arriscado suas vidas por nós.
